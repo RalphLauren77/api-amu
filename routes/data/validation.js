@@ -1,7 +1,7 @@
 const Joi = require('joi');
 
 const createDataSchema = Joi.object({
-    number: Joi.string().min(15).max(90).required(),
+    number: Joi.string().min(15).max(220).required(),
     category: Joi.string().min(4).max(4).optional(),
 });
 
